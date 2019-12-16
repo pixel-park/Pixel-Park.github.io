@@ -425,6 +425,12 @@ letter-spacing: -0.2px;
     transform: translateX(-50%);
     line-height: 32px;  
 }
+
+.psa{
+    margin-left: 14px;
+    font-size: 16px;
+    color: #5d5d5d;
+}
 #expirience{
     display: inline-block;
     margin: 28px 0 5px;
