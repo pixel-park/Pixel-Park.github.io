@@ -7,7 +7,27 @@
     color: #36bd6c;
     letter-spacing: -1px;
 }
-
+.pbar::after{
+  content: "";
+  position: absolute;
+   background-color: #ff0b0b;
+    margin-left: 10px;
+    width: 110px;
+    height: 25px;
+    margin-top: -4px;
+    opacity: 0.5;
+  animation: move 2s infinite;
+}
+@keyframes move {
+    from {
+      width: 0;
+        background-color: #ff0b0b;
+    }
+    to { 
+    width: 100;
+        background-color: #0bff2f;
+    }  
+  }
 
 @media only screen and (min-width: 901px) {
 
@@ -93,22 +113,14 @@ letter-spacing: -0.2px;
   position: absolute;
    background-color: #ff0b0b;
     margin-left: 10px;
-    width: 50px;
+    width: 110px;
     height: 25px;
     margin-top: -4px;
     opacity: 0.5;
   animation: move 2s infinite;
 }
-@keyframes move {
-    from {
-      width: 0px;
-        background-color: #ff0b0b;
-    }
-    to { 
-    width: 110px;
-        background-color: #0bff2f;
-    }  
-  }
+
+/*----------------------------------------------------------------------------*/
 
 #projects{
     display: inline-block;
@@ -324,22 +336,14 @@ letter-spacing: -0.2px;
   position: absolute;
    background-color: #ff0b0b;
     margin-left: 10px;
-    width: 50px;
+    width: 62px;
     height: 15px;
     margin-top: 4px;
     opacity: 0.5;
-  animation: moveb 2s infinite;
+  animation: move 2s infinite;
 }
-@keyframes moveb {
-    from {
-      width: 0px;
-        background-color: #ff0b0b;
-    }
-    to { 
-    width: 62px;
-        background-color: #0bff2f;
-    }  
-  }
+/*----------------------------------------------------------------------------*/
+
 #projects{
     display: inline-block;
     margin-top: 39px;
@@ -553,21 +557,12 @@ letter-spacing: -0.2px;
   position: absolute;
    background-color: #ff0b0b;
     margin-left: 10px;
-    width: 50px;
+    width: 68px;
     height: 15px;
     margin-top: 4px;
-  animation: movec 2s infinite;
+  animation: move 2s infinite;
 }
-@keyframes movec {
-    from {
-      width: 0px;
-        background-color: #ff0b0b;
-    }
-    to { 
-    width: 68px;
-        background-color: #0bff2f;
-    }  
-  }
+/*----------------------------------------------------------------------------*/
 #projects{
     display: block;
     margin-top: 29px;
