@@ -7,7 +7,33 @@
     color: #36bd6c;
     letter-spacing: -1px;
 }
-
+.pbar{
+    display: inline-block;
+    margin-left: -8px;
+    width: 10px;
+    height: 15px;
+    z-index: -1;
+}
+.pbar::after{
+  content: "";
+  position: absolute;
+   background-color: #ff0b0b;
+    margin-left: 10px;
+    width: 50px;
+    height: 25px;
+    margin-top: -4px;
+  animation: move 2s infinite;
+}
+@keyframes move {
+    from {
+      width: 0px;
+        background-color: #ff0b0b;
+    }
+    to { 
+    width: 110px;
+        background-color: #0bff2f75;
+    }  
+  }
 
 @media only screen and (min-width: 901px) {
 
@@ -79,15 +105,16 @@ letter-spacing: -0.2px;
 }
 #inpr{
   color: #646464;
-  font-size: 20px; 
+  font-size: 20px;
 }
-.pbar{
+/*.pbar{
     display: inline-block;
     background-color: #0bff0b;
     margin-left: 10px;
     width: 50px;
     height: 8px;
-}
+}*/
+
 #projects{
     display: inline-block;
     margin-top: 54px;
@@ -284,7 +311,7 @@ letter-spacing: -0.2px;
     font-size: 16px;
 }
 .inp{
-   color: #23536d; 
+  color: #23536d; 
 }
 #inpr{
   color: #646464;
@@ -292,11 +319,31 @@ letter-spacing: -0.2px;
 }
 .pbar{
     display: inline-block;
-    background-color: #0bff0b;
+    margin-left: -8px;
+    width: 5px;
+    height: 15px;
+    z-index: -1;
+}
+.pbar::after{
+  content: "";
+  position: absolute;
+   background-color: #ff0b0b;
     margin-left: 10px;
     width: 50px;
-    height: 8px;
+    height: 15px;
+    margin-top: 4px;
+  animation: move 2s infinite;
 }
+@keyframes move {
+    from {
+      width: 0px;
+        background-color: #ff0b0b;
+    }
+    to { 
+    width: 62px;
+        background-color: #0bff2f75;
+    }  
+  }
 #projects{
     display: inline-block;
     margin-top: 39px;
@@ -499,11 +546,31 @@ letter-spacing: -0.2px;
 }
 .pbar{
     display: inline-block;
-    background-color: #0bff0b;
+    margin-left: -8px;
+    width: 0px;
+    height: 15px;
+    z-index: -1;
+}
+.pbar::after{
+  content: "";
+  position: absolute;
+   background-color: #ff0b0b;
     margin-left: 10px;
     width: 50px;
-    height: 8px;
+    height: 15px;
+    margin-top: 4px;
+  animation: move 2s infinite;
 }
+@keyframes move {
+    from {
+      width: 0px;
+        background-color: #ff0b0b;
+    }
+    to { 
+    width: 68px;
+        background-color: #0bff2f75;
+    }  
+  }
 #projects{
     display: block;
     margin-top: 29px;
