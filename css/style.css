@@ -7,33 +7,7 @@
     color: #36bd6c;
     letter-spacing: -1px;
 }
-.pbar{
-    display: inline-block;
-    margin-left: -8px;
-    width: 10px;
-    height: 15px;
-    z-index: -1;
-}
-.pbar::after{
-  content: "";
-  position: absolute;
-   background-color: #ff0b0b;
-    margin-left: 10px;
-    width: 50px;
-    height: 25px;
-    margin-top: -4px;
-  animation: move 2s infinite;
-}
-@keyframes move {
-    from {
-      width: 0px;
-        background-color: #ff0b0b;
-    }
-    to { 
-    width: 110px;
-        background-color: #0bff2f75;
-    }  
-  }
+
 
 @media only screen and (min-width: 901px) {
 
@@ -107,13 +81,34 @@ letter-spacing: -0.2px;
   color: #646464;
   font-size: 20px;
 }
-/*.pbar{
+.pbar{
     display: inline-block;
-    background-color: #0bff0b;
+    margin-left: -8px;
+    width: 10px;
+    height: 15px;
+    z-index: -1;
+}
+.pbar::after{
+  content: "";
+  position: absolute;
+   background-color: #ff0b0b;
     margin-left: 10px;
     width: 50px;
-    height: 8px;
-}*/
+    height: 25px;
+    margin-top: -4px;
+    opacity: 0.5;
+  animation: move 2s infinite;
+}
+@keyframes move {
+    from {
+      width: 0px;
+        background-color: #ff0b0b;
+    }
+    to { 
+    width: 110px;
+        background-color: #0bff2f;
+    }  
+  }
 
 #projects{
     display: inline-block;
@@ -332,16 +327,17 @@ letter-spacing: -0.2px;
     width: 50px;
     height: 15px;
     margin-top: 4px;
-  animation: move 2s infinite;
+    opacity: 0.5;
+  animation: moveb 2s infinite;
 }
-@keyframes move {
+@keyframes moveb {
     from {
       width: 0px;
         background-color: #ff0b0b;
     }
     to { 
     width: 62px;
-        background-color: #0bff2f75;
+        background-color: #0bff2f;
     }  
   }
 #projects{
@@ -550,6 +546,7 @@ letter-spacing: -0.2px;
     width: 0px;
     height: 15px;
     z-index: -1;
+    opacity: 0.5;
 }
 .pbar::after{
   content: "";
@@ -559,16 +556,16 @@ letter-spacing: -0.2px;
     width: 50px;
     height: 15px;
     margin-top: 4px;
-  animation: move 2s infinite;
+  animation: movec 2s infinite;
 }
-@keyframes move {
+@keyframes movec {
     from {
       width: 0px;
         background-color: #ff0b0b;
     }
     to { 
     width: 68px;
-        background-color: #0bff2f75;
+        background-color: #0bff2f;
     }  
   }
 #projects{
