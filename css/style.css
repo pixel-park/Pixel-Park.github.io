@@ -128,10 +128,10 @@ letter-spacing: -0.2px;
     font-size: 24px;
 }
 .inp{
-    color: #23536d;
+    color: #9a9a9a;
 }
 #inpr{
-  color: #646464;
+  color: #2d2d2d;
   font-size: 20px;
 }
 .pbar{
@@ -359,10 +359,10 @@ letter-spacing: -0.2px;
     font-size: 16px;
 }
 .inp{
-  color: #23536d; 
+  color: #9a9a9a; 
 }
 #inpr{
-  color: #646464;
+  color: #2d2d2d;
   font-size: 12px; 
 }
 .pbar{
@@ -582,10 +582,10 @@ letter-spacing: -0.2px;
 .inp{
    margin-left: 14px;
    margin-right: 14px;
-   color: #23536d;
+   color: #9a9a9a;
 }
 #inpr{
-  color: #646464;
+  color: #2d2d2d;
   font-size: 12px; 
   margin-left: 10px;
 }
