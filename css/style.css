@@ -23,6 +23,7 @@
   display: block;
   position: absolute;
   text-decoration: none;
+  color: rgb(255, 255, 255);
   margin-left: 8%;
   margin-top: 10px;
   font-size: 24px;
@@ -30,7 +31,6 @@
   padding: 12px 4px;
   border-radius: 8px;
   background: linear-gradient(0deg, rgb(102, 102, 102) 0%, rgb(223, 223, 223) 50%, rgb(102, 102, 102) 100%);
-  color: #fffffffc;
   text-shadow: 0.03em 0.03em 0.2em rgb(27, 27, 27);
   box-shadow: 0.03em 0.00em 0.4em rgb(107, 107, 107); 
 }
