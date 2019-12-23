@@ -220,11 +220,8 @@ li:before{
 
 @media only screen and (min-width: 800px) {
     body{
-        //position: absolute;
-        /margin-left: 50%;
-        /transform: translateX(-50%);
         max-width: 1560px;
-        max-height: 2539px;
+        min-height: 2539px;
         background-image: url("../img/desktop-back.jpg");
         background-repeat: no-repeat; 
         background-position: center top;
