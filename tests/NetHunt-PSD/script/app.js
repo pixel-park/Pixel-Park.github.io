@@ -49,6 +49,7 @@ form.addEventListener("submit", function (event) {
 
       var xhr = new XMLHttpRequest();
       xhr.open('POST', requestURL);
+      xhr.setRequestHeader('content-type', 'application/json; charset=UTF-8')
       xhr.send(JSON.stringify(myData));
 
       console.log(JSON.stringify(myData));
